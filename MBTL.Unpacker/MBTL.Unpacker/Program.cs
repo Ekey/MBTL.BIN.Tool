@@ -7,7 +7,7 @@ namespace MBTL.Unpacker
         static void Main(String[] args)
         {
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Metly Blood: Type Lumina BIN Unpacker");
+            Console.WriteLine("MELTY BLOOD: TYPE LUMINA BIN Unpacker");
             Console.WriteLine("(c) 2021 Ekey (h4x0r) / v{0}\n", Utils.iGetApplicationVersion());
             Console.ResetColor();
 
