@@ -4,11 +4,14 @@ namespace MBTL.Unpacker
 {
     class Program
     {
+        private static String m_Title = "MELTY BLOOD: TYPE LUMINA BIN Unpacker";
+
         static void Main(String[] args)
         {
+            Console.Title = m_Title;
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("MELTY BLOOD: TYPE LUMINA BIN Unpacker");
-            Console.WriteLine("(c) 2021 Ekey (h4x0r) / v{0}\n", Utils.iGetApplicationVersion());
+            Console.WriteLine(m_Title);
+            Console.WriteLine("(c) 2022 Ekey (h4x0r) / v{0}\n", Utils.iGetApplicationVersion());
             Console.ResetColor();
 
             if (args.Length != 2)

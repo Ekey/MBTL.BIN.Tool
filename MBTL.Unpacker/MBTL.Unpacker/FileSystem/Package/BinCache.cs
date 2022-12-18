@@ -43,6 +43,11 @@ namespace MBTL.Unpacker
             m_Archives.Add("se", "data012.bin");
             m_Archives.Add("Shader", "data013.bin");
             m_Archives.Add("System", "data014.bin");
+            m_Archives.Add("___French", "data015.bin");
+            m_Archives.Add("___Portuguese", "data016.bin");
+            m_Archives.Add("___Spanish", "data017.bin");
+            m_Archives.Add("Append_0", "data018.bin"); // BattleRes
+            m_Archives.Add("Append_1", "data019.bin"); // grpdat
         }
 
         private static Boolean iInitFileNamesCache()

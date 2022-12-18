@@ -12,7 +12,7 @@ namespace MBTL.Unpacker
             Int32 A = lpBuffer[0] ^ 0xAC;
             Int32 B = lpBuffer[0] ^ 0xAC ^ lpBuffer[1] ^ 0x76381;
 
-            if (lpBuffer.Length > 2 )
+            if (lpBuffer.Length > 2)
             {
                 for (Int32 i = lpBuffer.Length - 1; i > 1; i--)
                 {
